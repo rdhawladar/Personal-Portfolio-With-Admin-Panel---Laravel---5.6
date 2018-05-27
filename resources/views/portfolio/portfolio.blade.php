@@ -92,10 +92,10 @@
                     ])
                     @include('portfolio/portfolio-details', [
                         'project_title' => 'School Management System',
-                        'project_details' => 'Manages admission, attentendce, exams, results and amny more',
+                        'project_details' => 'Manages admission, attentendce, exams, results and many more',
                         'project_tools' => 'CodeIgniter, Ajax, JQuery',
                         'project_img' => 'university.jpg',
-                        'project_link' => 'https://github.com/rdhawladar/University_Automation_ERP'
+                        
                     ])
                     @include('portfolio/portfolio-details', [
                                 'project_title' => 'Recent Project',
