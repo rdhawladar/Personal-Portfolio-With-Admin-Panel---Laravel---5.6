@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('layouts.layout');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact', 'ContactController@index')->name('contact');

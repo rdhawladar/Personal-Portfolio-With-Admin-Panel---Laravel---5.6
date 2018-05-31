@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\contact;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -14,7 +15,19 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        $v = Validator::make(
+          ['start_date' => date('2028-05-23')], // input
+          [
+            'date_of_birth' => ['before:5 years ago'],
+            'start_date'    => 'required|date_format:Y-m-d|after:8 years',
+            'end_date'      => 'date_format:d-m-Y|after:start_date',
+            ]
+        );
+
+        if ($v->passes())
+         dd('Your Date format is correct.');
+        else
+         dd($v->errors());
     }
 
     /**
@@ -24,7 +37,7 @@ class ContactController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**

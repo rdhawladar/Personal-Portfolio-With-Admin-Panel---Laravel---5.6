@@ -45,7 +45,7 @@
                   'skill_rate' => 80
                 ])
           @include('skills/skill-details', [
-                  'skill_name' => 'VUE.JS',
+                  'skill_name' => 'VUE.JS / Angular.JS',
                   'skill_rate' => 40
                 ])
           @include('skills/skill-details', [
