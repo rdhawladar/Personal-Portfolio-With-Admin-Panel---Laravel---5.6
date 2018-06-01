@@ -8754,6 +8754,10 @@ Created using IcoMoon - icomoon.io
   color: #fff;
 }
 
+.gallery figure.cc-effect:hover .h4 {
+  padding: 0 10px;
+}
+
 .gallery figure.cc-effect:hover figcaption::after,
 .gallery figure.cc-effect:hover .h4,
 .gallery figure.cc-effect:hover p,

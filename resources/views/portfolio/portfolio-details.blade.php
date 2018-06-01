@@ -5,8 +5,8 @@
             <figure class="cc-effect">
                 <img src="{{asset('images/portfolio/'.$project_img)}}" alt="Image"/>
                 <figcaption>
-                    <div class="h4">{{$project_title}}</div>
-                    <p>{{$project_details}}</p>
+                    <div class="h4">{{$project_title or ''}}</div>
+                    <p>{{$project_details or ''}}</p>
                     <p> <b>{{$project_tools or ''}} </b></p>
                 </figcaption>
             </figure>
@@ -25,7 +25,7 @@
         <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>Some text in the modal.</p>    
         <p>{{$project_title}}</p>
       </div>
       <div class="modal-footer">
