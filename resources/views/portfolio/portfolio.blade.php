@@ -13,7 +13,7 @@
                 <a class="nav-link" data-toggle="tab" href="#codeigniter" role="tablist"><b>CodeIgniter</b></a>
               </li>
               <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#js" role="tablist"><b>JS</b></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#other" role="tablist"><b>Others</b></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#others" role="tablist"><b>Others</b></a></li>
             <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tv" role="tablist"><b>TV Programs</b></a></li>
           </ul>
         </div>
@@ -70,150 +70,132 @@
         </div>
         <div class="tab-pane" id="codeigniter">
             <div class="ml-auto mr-auto">
-        <div class="row">
-            @include('portfolio/portfolio-details', [
-                'project_title' => 'University Automation ERP',
-                'project_details' => 'Manages admission, attentendce, exams, results, Library, Accounts and many more',
-                'project_tools' => 'CodeIgniter, Ajax, JQuery',
-                'project_img' => 'university.jpg',
-                'project_link' => 'https://github.com/rdhawladar/University_Automation_ERP'
-            ])
-            @include('portfolio/portfolio-details', [
-                'project_title' => 'School Management System',
-                'project_details' => 'Manages admission, attentendce, exams, results and many more',
-                'project_tools' => 'CodeIgniter, Ajax, JQuery',
-                'project_img' => 'university.jpg',
-                'project_link' => 'https://github.com/rdhawladar/University_Automation_ERP'
-                
-            ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                <div class="row">
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'University Automation ERP',
+                        'project_details' => 'Manages admission, attentendce, exams, results, Library, Accounts and many more',
+                        'project_tools' => 'CodeIgniter, Ajax, JQuery',
+                        'project_img' => 'university.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/University_Automation_ERP'
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'School Management System',
+                        'project_details' => 'Manages admission, attentendce, exams, results and many more',
+                        'project_tools' => 'CodeIgniter, Ajax, JQuery',
+                        'project_img' => 'school.jpg',
+                        'project_link' => 'http://viewsoft.biz/schoolerp/'
+                        
+                    ])
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'School Management System',
+                        'project_details' => 'Manages admission, attentendce, exams, results and many more',
+                        'project_tools' => 'CodeIgniter, Ajax, JQuery',
+                        'project_img' => 'payroll.jpg',
+                        'project_link' => 'http://viewsoft.biz/schoolerp/'
+                        
+                    ])
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Ecommerce Site',
+                        'project_details' => 'Smart cart system, Paypall Sandbox Gateway, Admin panel, Sales Report',
+                        'project_tools' => 'CodeIgniter, Ajax, JQuery',
+                        'project_img' => 'payroll.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/ecom_3'
+                        
+                    ])
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Procurement',
+                        'project_details' => 'Stock, Order, Report Generator, 4 Level user access',
+                        'project_tools' => 'CodeIgniter, Ajax, JQuery',
+                        'project_img' => 'procurement.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/Procurement_CI'
+                        
                     ])
                 </div>
             </div>
         </div>
-
         <div class="tab-pane" id="js">
             <div class="ml-auto mr-auto">
-        <div class="row">
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Code igniter',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                <div class="row">
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Personal Notebook',
+                        'project_details' => 'Personal notebook to write notes',
+                        'project_tools' => 'VueJS, Laravel 5.6, Balma',
+                        'project_img' => 'vue.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/personal_notebook'
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Personal Portfolio',
+                        'project_details' => 'Personal Portfolio with Admin Panel',
+                        'project_tools' => 'Laravel 5.6, Bankend in VueJS',
+                        'project_img' => 'portfolio.jpg',
+                        'project_link' => 'Personal-Portfolio-With-Admin-Panel---Laravel---5.6/'
+                        
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Crud Operation Using AngularJS',
+                        'project_details' => '',
+                        'project_tools' => 'AngularJS',
+                        'project_img' => 'angular.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/angularjs_CRUD_Op'
+                        
                     ])
                 </div>
             </div>
         </div>
-        <div class="tab-pane" id="wordpress">
+        <div class="tab-pane" id="others">
             <div class="ml-auto mr-auto">
-        <div class="row">
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'wordpress',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                <div class="row">
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Personal Notebook',
+                        'project_details' => 'Personal notebook to write notes',
+                        'project_tools' => 'VueJS, Laravel 5.6, Balma',
+                        'project_img' => 'vue.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/personal_notebook'
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Personal Portfolio',
+                        'project_details' => 'Personal Portfolio with Admin Panel',
+                        'project_tools' => 'Laravel 5.6, Bankend in VueJS',
+                        'project_img' => 'portfolio.jpg',
+                        'project_link' => 'Personal-Portfolio-With-Admin-Panel---Laravel---5.6/'
+                        
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'Crud Operation Using AngularJS',
+                        'project_details' => '',
+                        'project_tools' => 'AngularJS',
+                        'project_img' => 'angular.jpg',
+                        'project_link' => 'https://github.com/rdhawladar/angularjs_CRUD_Op'
+                        
                     ])
-                </div>
-            </div>
-        </div>
-
-      
-        <div class="tab-pane" id="other">
-            <div class="ml-auto mr-auto">
-        <div class="row">
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Code other',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'TMSS Magazine',
+                        'project_details' => '',
+                        'project_tools' => 'Wordpress',
+                        'project_img' => 'wordpress.jpg',
+                        'project_link' => 'http://tmssmagazine.com/'
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'TMSS ICT LTD',
+                        'project_details' => '',
+                        'project_tools' => 'Wordpress',
+                        'project_img' => 'wordpress.jpg',
+                        'project_link' => 'http://tmss-ict.com/'
                     ])
-            @include('portfolio/portfolio-details', [
-                        'project_title' => 'Recent Project',
-                        'project_details' => 'Web Development',
-                        'project_img' => 'images/project-1.jpg',
-
-                        'project_title2' => 'Recent Project',
-                        'project_details2' => 'Web design',
-                        'project_img2' => 'images/project-2.jpg',
+                    @include('portfolio/portfolio-details', [
+                        'project_title' => 'TMSS ICT LTD',
+                        'project_details' => '',
+                        'project_tools' => 'Wordpress',
+                        'project_img' => 'wordpress.jpg',
+                        'project_link' => 'http://tmss-bd.org/'
                     ])
                 </div>
             </div>
         </div>
-
       
         <div class="tab-pane" id="tv">
             <div class="ml-auto mr-auto">
-        <div class="row">
+                <div class="row">
                     @include('portfolio/portfolio-details', [
                         'project_title' => 'Web Design and Development Live Episode',
                         'project_tools' => 'Introduction to HTML',
@@ -223,7 +205,7 @@
                     @include('portfolio/portfolio-details', [
                         'project_title' => 'Web Design and Development Live Episode',
                         'project_tools' => 'Web Design and CSS',
-                        'project_img' => 'deshtv.jpg',
+                        'project_img' => 'me.png',
                         'project_link' => 'https://www.youtube.com/watch?v=NSd1ctGV4qA'
                     ])
                     @include('portfolio/portfolio-details', [
